@@ -1,0 +1,71 @@
+.videoPlayerPage {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    flex-direction: column; /* Change to column to stack the player and details */
+    align-items: center;
+  }
+  
+  .videoPlayerPage__player {
+    width: 70%; /* Adjust the width to make it responsive */
+    margin: 0 auto;
+  }
+  
+  .videoPlayer {
+    width: 100%;
+    height: 500px; /* Adjust height as needed */
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .videoPlayerPage__details {
+    width: 70%; /* Match width with the video player */
+    margin-top: 20px;
+  }
+  
+  .videoPlayerPage__details h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .videoPlayerPage__details p {
+    font-size: 14px;
+    color: #606060;
+  }
+  
+  .videoPlayerPage__details hr {
+    margin: 20px 0;
+    border: none;
+    height: 1px;
+    background: #e6e6e6;
+  }
+  
+  .videoPlayerPage__channelInfo {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .videoPlayerPage__channelImage {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+  }
+  
+  .videoPlayerPage__channelInfo h3 {
+    font-size: 18px;
+    margin: 0;
+    color: #333;
+  }
+  
+  .videoPlayerPage__channelInfo p {
+    font-size: 14px;
+    color: #606060;
+  }
+
+  .videoPlayerPage__player {
+    height: 30px;
+  }
+  
