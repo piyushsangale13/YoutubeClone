@@ -4,7 +4,7 @@ import { useParams } from 'react-router-dom';
 import axios from 'axios';
 import { Avatar } from '@mui/material';
 import VideoPlayer from './VideoPlayer'; // Import the VideoPlayer component
-
+import './VideoPlayerPage.css'
 function VideoPlayerPage() {
     const { videoId } = useParams();
     const [video, setVideo] = useState(null); // Store video object

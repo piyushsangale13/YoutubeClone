@@ -31,7 +31,7 @@ const VideoPlayer = ({ formats }) => {
     }
   }, [formats]);
 
-  return <div ref={playerRef} style={{ width: '50%', height: '50%' }} />;
+  return <div ref={playerRef} />;
 };
 
 export default VideoPlayer;
